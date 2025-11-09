@@ -6,7 +6,7 @@
    git clone https://github.com/J3Unknown/MSP-dart-2025-2026.git
    ```
 
-2. Create folder with your name in `MSP-dart-2025-2026\Task1\**Folder_With_Your_Name**`.
+2. Create folder with your name in `MSP-dart-2025-2026\Task1\{Folder_With_Your_Name}`.
 3. Add A **Copy** of file `task1.dart` to your folder.
 4. Read the task description `Task1.md`.
    > To view as markdown : on the file in VScode `ctrl + shift + v`.
