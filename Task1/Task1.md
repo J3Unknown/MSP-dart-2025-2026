@@ -26,7 +26,7 @@
 
 ## Problem 1
 
-Rules of the "Rock, Paper, Scissors" game are:
+Rules of the "rock, paper, scissors" game are:
 
 Return only String of the result.
 
