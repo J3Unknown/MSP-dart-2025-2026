@@ -53,7 +53,7 @@ The input string will consist of lower & upper case letters and/or spaces.
 
 > **Note** : if the string consist with spaces print number of spaces , if not print "No Spaces In The String".
 
-Example (only return integer & use `print()` for spaces)
+Example (only return `integer`& use `print()` for spaces)
 
 ```
 "abcdEf" -> 2
