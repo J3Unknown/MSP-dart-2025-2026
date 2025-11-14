@@ -13,6 +13,7 @@
 5. Implement the functions in **your file**.
 6. Push the solution.
    ```
+   git add .
    git pull
    git commit -m "your massage"
    git push
