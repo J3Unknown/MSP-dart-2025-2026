@@ -1,12 +1,14 @@
 
 import 'dart:io';
-String rps(String? p1, String? p2) {
+String rps(String p1, String p2) {
+  p1=p1.toLowerCase();
+  p2=p2.toLowerCase();
   if(p1==p2)
   {
     return "Draw!";
   }
 
-  if((p1=="Rock"&&p2=="Scissors")||(p1=="Scissors"&&p2=="Paper")||(p1=="Paper"&&p2=="Rock"))
+  if((p1=="rock"&&p2=="scissors")||(p1=="scissors"&&p2=="paper")||(p1=="paper"&&p2=="rock"))
   {
     return "Player 1 won!";
   }
@@ -21,13 +23,15 @@ String rps(String? p1, String? p2) {
 int? getCount(String inputStr) {
   int count1=0;
   int count2=0;
-  for(int i=0;i<inputStr.length;i++)
+  inputStr=inputStr.toLowerCase();
+  List<String>s=inputStr.split('');
+  for(int i=0;i<s.length;i++)
   {
-    if(inputStr[i]=='a'||inputStr[i]=='A'||inputStr[i]=='e'||inputStr[i]=='E'||inputStr[i]=='i'||inputStr[i]=='I'||inputStr[i]=='a'||inputStr[i]=='o'||inputStr[i]=='O'||inputStr[i]=='u'||inputStr[i]=='U')
+    if(s[i]=='a'||s[i]=='e'||s[i]=='i'||s[i]=='o'||s[i]=='u')
     {
       count1=count1+1;
     }
-    if(inputStr[i]==" ")
+    if(s[i]==" ")
     {
       count2=count2+1;
     }
@@ -47,8 +51,8 @@ int? getCount(String inputStr) {
 
 
 int duplicateCount(String text) {
-  text.toLowerCase();
-  text.replaceAll(" ", "");
+  text=text.toLowerCase();
+  text=text.replaceAll(" ", "");
   Map<String,int> fre={};
   for (var i in text.split('')) {
     fre[i]=(fre[i]??0)+1;    
@@ -65,6 +69,8 @@ int duplicateCount(String text) {
 
   return count;
 }
+
+
 
 
 
