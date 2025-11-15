@@ -13,6 +13,7 @@
 5. Implement the functions in **your file**.
 6. Push the solution.
    ```
+   git add .
    git pull
    git commit -m "your massage"
    git push
@@ -26,7 +27,7 @@
 
 ## Problem 1
 
-Rules of the "Rock, Paper, Scissors" game are:
+Rules of the "rock, paper, scissors" game are:
 
 Return only String of the result.
 
@@ -53,7 +54,7 @@ The input string will consist of lower & upper case letters and/or spaces.
 
 > **Note** : if the string consist with spaces print number of spaces , if not print "No Spaces In The String".
 
-Example (only return integer & use `print()` for spaces)
+Example (only return `integer`& use `print()` for spaces)
 
 ```
 "abcdEf" -> 2
