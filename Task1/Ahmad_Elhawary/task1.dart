@@ -34,12 +34,3 @@ int getCount(String inputStr) {
   print("Number of Spaces : $num_of_spaces");
   return vowels_count;
 }
-
-
-//* problem 3 (optional)
-int duplicateCount(String text) {
-
-
-
-
-}
