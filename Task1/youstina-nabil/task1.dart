@@ -20,7 +20,7 @@ String rps(String p1, String p2) {
 }
 
  
-int? getCount(String inputStr) {
+int getCount(String inputStr) {
   int count1=0;
   int count2=0;
   inputStr=inputStr.toLowerCase();
@@ -36,17 +36,19 @@ int? getCount(String inputStr) {
       count2=count2+1;
     }
   }
+  print(count1);
   if(count2==0)
   {
-    print("$count1 + \"No Spaces In The String\"");
+    print("No Spaces In The String");
   }
   else if(count2==1)
   {
-    print("$count1 + $count2 space");
+    print("$count2 space");
   }
   else{
-    print("$count1 + $count2 spaces");
+    print("$count2 spaces");
   }
+  return count1;
 }
 
 
@@ -69,7 +71,6 @@ int duplicateCount(String text) {
 
   return count;
 }
-
 
 
 
